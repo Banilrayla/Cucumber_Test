@@ -1,0 +1,8 @@
+com\adactin\pom\Adactin_Select_Hotel.class
+com\adactin\pom\Adactin_Login_Page.class
+com\adactin\pom\Adactin_Confirmation_Page.class
+com\baseclass\Base_Class_Cucumber.class
+com\adactin\pom\Adactin_Book_Hotel.class
+com\adactin_page_object\Adactin_Page_Manager.class
+com\adactin\pom\Adactin_Search_Hotel_Page.class
+com\Cucumber_Test\App.class

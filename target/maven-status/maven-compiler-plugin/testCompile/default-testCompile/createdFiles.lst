@@ -1,0 +1,8 @@
+com\adactin\properties\Configuration_Reader.class
+com\adactin\runner\Runner_Class.class
+com\adactin\runner\Pom_Adactin.class
+com\Cucumber_Test\AppTest.class
+com\adactin\runner\Runner_POManager_Adactin.class
+com\adactin\properties\File_Reader_Manager.class
+com\adactin\stepdefinition\Step_Definition.class
+com\adactin\runner\Adactin_Runner.class

@@ -1,0 +1,574 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Check Login Is Successful With Valid Credentials",
+        "description": "",
+        "id": "to-test-hotel-booking-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5451951000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Is On Login Page",
+            "match": {
+              "location": "Step_Definition.user_Is_On_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 284260700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enters \"incorrectusername\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "incorrectusername",
+                  "offset": 13
+                }
+              ],
+              "location": "Step_Definition.user_Enters(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220106400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345",
+                  "offset": 12
+                }
+              ],
+              "location": "Step_Definition.user_Enter(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 621541200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Clicks On Login Button And Navigates To Search Hotel Page",
+            "match": {
+              "location": "Step_Definition.user_Clicks_On_Login_Button_And_Navigates_To_Search_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Check Login Is Successful With Valid Credentials",
+        "description": "",
+        "id": "to-test-hotel-booking-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 529872600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Is On Login Page",
+            "match": {
+              "location": "Step_Definition.user_Is_On_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202734000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enters \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 13
+                }
+              ],
+              "location": "Step_Definition.user_Enters(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 215177100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter \"incorrectpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "incorrectpassword",
+                  "offset": 12
+                }
+              ],
+              "location": "Step_Definition.user_Enter(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 580300600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Clicks On Login Button And Navigates To Search Hotel Page",
+            "match": {
+              "location": "Step_Definition.user_Clicks_On_Login_Button_And_Navigates_To_Search_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Check Login Is Successful With Valid Credentials",
+        "description": "",
+        "id": "to-test-hotel-booking-functionality;check-login-is-successful-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 517690800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user Is On Login Page",
+            "match": {
+              "location": "Step_Definition.user_Is_On_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208058400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Enters \"Banilbrett\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Banilbrett",
+                  "offset": 13
+                }
+              ],
+              "location": "Step_Definition.user_Enters(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 216042900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Enter \"benbrett1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "benbrett1",
+                  "offset": 12
+                }
+              ],
+              "location": "Step_Definition.user_Enter(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23188381000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Clicks On Login Button And Navigates To Search Hotel Page",
+            "match": {
+              "location": "Step_Definition.user_Clicks_On_Login_Button_And_Navigates_To_Search_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Verify Search hotel is successfully completed with valid credentials.",
+        "description": "",
+        "id": "to-test-hotel-booking-functionality;verify-search-hotel-is-successfully-completed-with-valid-credentials.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 186345900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Selects Location",
+            "match": {
+              "location": "Step_Definition.user_Selects_Location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 276579700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Select Hotel",
+            "match": {
+              "location": "Step_Definition.user_Select_Hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158385800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user Selects Room Type",
+            "match": {
+              "location": "Step_Definition.user_Selects_Room_Type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308167600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user Selects Number Of Rooms",
+            "match": {
+              "location": "Step_Definition.user_Selects_Number_Of_Rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268521500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user Enters Check In Date",
+            "match": {
+              "location": "Step_Definition.user_Enters_Check_In_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263584300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user Enters Check Out Date",
+            "match": {
+              "location": "Step_Definition.user_Enters_Check_Out_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227577500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Selects Adult Per Room",
+            "match": {
+              "location": "Step_Definition.selects_Adult_Per_Room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204486600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user Selects Children Per Room",
+            "match": {
+              "location": "Step_Definition.user_Selects_Children_Per_Room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1265983400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Clicks On Search Button And Navigates To Select Hotel Page",
+            "match": {
+              "location": "Step_Definition.clicks_On_Search_Button_And_Navigates_To_Select_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Verify Select Hotel Has Passed With Valid Credentials",
+        "description": "",
+        "id": "to-test-hotel-booking-functionality;verify-select-hotel-has-passed-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 103588200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user Selects Radio Button",
+            "match": {
+              "location": "Step_Definition.user_Selects_Radio_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1115525900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Clicks On Continue Button And Navigates To Hotel Booking Page",
+            "match": {
+              "location": "Step_Definition.clicks_On_Continue_Button_And_Navigates_To_Hotel_Booking_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@UnityTest"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Check hotel booking is successful with valid credentials",
+        "description": "",
+        "id": "to-test-hotel-booking-functionality;check-hotel-booking-is-successful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 255810100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user Enters First Name",
+            "match": {
+              "location": "Step_Definition.user_Enters_First_Name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236731400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user Enters Last Name",
+            "match": {
+              "location": "Step_Definition.user_Enters_Last_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287782300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user Enters Billing Address",
+            "match": {
+              "location": "Step_Definition.user_Enters_Billing_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259521700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user Enters Credit Card No.",
+            "match": {
+              "location": "Step_Definition.user_Enters_Credit_Card_No()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152046800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user Selects Credit Card Type",
+            "match": {
+              "location": "Step_Definition.user_Selects_Credit_Card_Type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201283000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user Enters Expiry month",
+            "match": {
+              "location": "Step_Definition.user_Enters_Expiry_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263540500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user Enters Expiry Year",
+            "match": {
+              "location": "Step_Definition.user_Enters_Expiry_Year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 232703500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user Enters CVV Number",
+            "match": {
+              "location": "Step_Definition.user_Enters_CVV_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80961100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user Clicks On Book Now Button And Navigates To Booking Confirmation Page",
+            "match": {
+              "location": "Step_Definition.user_Clicks_On_Book_Now_Button_And_Navigates_To_Booking_Confirmation_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Check Booking Confirmation Is Successful",
+        "description": "",
+        "id": "to-test-hotel-booking-functionality;check-booking-confirmation-is-successful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7729286600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user Clicks On Logout Button",
+            "match": {
+              "location": "Step_Definition.user_Clicks_On_Logout_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@AcceptanceTest"
+          }
+        ]
+      }
+    ],
+    "name": "To Test Hotel Booking Functionality",
+    "description": "",
+    "id": "to-test-hotel-booking-functionality",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
